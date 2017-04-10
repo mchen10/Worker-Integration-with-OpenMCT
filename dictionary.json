@@ -1,0 +1,33 @@
+{
+    "name": "Average Worker",
+    "key": "worker",
+    "measurements": [
+        {
+            "name": "Wage",
+            "key": "22ta",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "dollars",
+                    "format": "float",
+                    "min": 0,
+                    "hints": {
+                        "y": 1,
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "x": 1,
+                        "domain": 1
+                    }
+                }
+            ]
+        }
+    ]
+}
