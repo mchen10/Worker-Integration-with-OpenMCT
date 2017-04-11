@@ -21,7 +21,7 @@
                     "key": "utc",
                     "source": "timestamp",
                     "name": "Timestamp",
-                    "format": "utc",
+                    "format": "float",
                     "hints": {
                         "x": 1,
                         "domain": 1
